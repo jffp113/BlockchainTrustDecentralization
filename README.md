@@ -1,7 +1,7 @@
 # Thesis Finder
 
-This repository was made with the porpose of aggregating the different components that make my thesis.
-This thesis corrently has 2 Components:
+This repository was created with the purpose of aggregating the various components that make up my thesis.
+This thesis currently consists of 2 components:
 
 * Signer Node
 * Go CryptoProviderSDK
