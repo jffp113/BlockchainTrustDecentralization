@@ -8,4 +8,4 @@ This thesis currently consists of 2 components:
 * Signer Node - https://github.com/jffp113/SignerNode_Thesis
 * Go CryptoProviderSDK - https://github.com/jffp113/CryptoProviderSDK
 
-The latex for the thesis can be found here: 
+The latex for the thesis can be found here: https://github.com/jffp113/JPereira_Thesis
