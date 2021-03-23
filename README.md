@@ -8,6 +8,7 @@ This thesis currently consists of 3 components:
 * Signer Node - https://github.com/jffp113/SignerNode_Thesis
 * Go CryptoProviderSDK - https://github.com/jffp113/CryptoProviderSDK
 * Sawtooth Validator - https://github.com/jffp113/sawtooth-core
+* Sawtooth SmartContract - https://github.com/jffp113/sawtooth-smartcontract
 * go util - https://github.com/jffp113/go-util
 
 The latex for the thesis can be found here: https://github.com/jffp113/JPereira_Thesis
