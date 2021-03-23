@@ -10,5 +10,6 @@ This repository was created with the purpose of aggregating the various componen
 * Sawtooth Validator - https://github.com/jffp113/sawtooth-core
 * Sawtooth SmartContract - https://github.com/jffp113/sawtooth-smartcontract
 * go util - https://github.com/jffp113/go-util
+* Blockchain Benchmarker - https://github.com/jffp113/Thesis_Client
 
 The latex for the thesis can be found here: https://github.com/jffp113/JPereira_Thesis
