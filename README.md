@@ -11,6 +11,7 @@ This repository was created with the purpose of aggregating the various componen
 * Sawtooth SmartContract - https://github.com/jffp113/sawtooth-smartcontract
 * go util - https://github.com/jffp113/go-util
 * algorand sdk - https://github.com/jffp113/go-algorand-sdk
+* algorand validator - https://github.com/jffp113/go-algorand
 * Blockchain Benchmarker - https://github.com/jffp113/Thesis_Client
 
 The latex for the thesis can be found here: https://github.com/jffp113/JPereira_Thesis
