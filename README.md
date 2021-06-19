@@ -34,4 +34,4 @@ The latex for the thesis can be found here: https://github.com/jffp113/JPereira_
 
 ## Reference
 
-- <a name="thesis">[1]</a> J. Pereira. Decentralizing Trust with Resilient Group Signatures in Blockchains, MSc Thesis. Universidade Nova de Lisboa, 2021.
+<a name="thesis">1.</a> J. Pereira. Decentralizing Trust with Resilient Group Signatures in Blockchains, MSc Thesis. Universidade Nova de Lisboa, 2021.
