@@ -12,7 +12,19 @@ Asymmetric cryptography and especially digital signatures are key components of 
 To this end, we will design and implement a modular and portable cryptographic provider that supports cryptographic operations that can be expressed and executed by smart contracts. Our system will be designed to be agnostic and adaptable to dfferent service planes and diﬀerent blockchains (independent of consensus and consistency control solutions and will be adaptable to permissionless or permissioned models). Therefore, we envision our solution as a portable and adaptable plugin service plane for blockchains that provides authenticated group-signed transactions with decentralized auditing, fairness, and long-term security guarantees to leverage a better trust-based decentralized model. For validation and experimental evaluation of the deployed solution, we will observe the beneﬁts of our proposal, which must do without sacriﬁcing throughput and latency conditions for each blockchain without degrading these metrics compared to using single digital signatures under centralized trust model assumptions. We will perform our validations in a cloud-based testbench pilot, running our service plane in two different blockchains using at least twenty blockchain nodes distributed in three different data
 
 ## Architecture
+The following Figure illustrates the architecture of the prototype:
 
+![Alt text](./figures/prototype_architecture.png)
+
+Our prototype is build in different components and layers:
+
+- The [signer node](https://github.com/jffp113/SignerNode_Thesis) is the principal component constituted by small components:
+    - The [crypto-provider](https://github.com/jffp113/CryptoProviderSDK), is a self containerized sub-component where all cryptographic operations occur.
+    - The smart-contract engine, which is devided into two engines, also docker containerized: one for algorand smart-contracts and other for [Hyperledger Sawtooth Smart-Contracts](https://github.com/jffp113/sawtooth-smartcontract).
+- A validator node correspondes to a certain blockchain plataform node. We have changed two completely different blockchain platforms:
+    - [Algorand](https://github.com/jffp113/go-algorand)
+    - [Hyperledger Sawtooth](https://github.com/jffp113/sawtooth-core)
+- Not shown in this figure, but we have also a [benchmark client](https://github.com/jffp113/Thesis_Client) and we have adapted the [Algorand SDK](https://github.com/jffp113/go-algorand-sdk) to our needs. 
 
 ### Links to each component
 This repository was created with the purpose of aggregating the various components that make up my thesis.
