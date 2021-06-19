@@ -16,15 +16,15 @@ The following Figure illustrates the architecture of the prototype:
 
 ![Alt text](./figures/prototype_architecture.png)
 
-Our prototype is build in different components and layers:
+Our prototype is built in different components and layers:
 
-- The [signer node](https://github.com/jffp113/SignerNode_Thesis) is the principal component constituted by small components:
-    - The [crypto-provider](https://github.com/jffp113/CryptoProviderSDK), is a self containerized sub-component where all cryptographic operations occur.
-    - The smart-contract engine, which is devided into two engines, also docker containerized: one for algorand smart-contracts and other for [Hyperledger Sawtooth Smart-Contracts](https://github.com/jffp113/sawtooth-smartcontract).
-- A validator node correspondes to a certain blockchain plataform node. We have changed two completely different blockchain platforms:
-    - [Algorand](https://github.com/jffp113/go-algorand)
+- The [signer node](https://github.com/jffp113/SignerNode_Thesis) is the main component, which consists of small components: 
+    - The [crypto-provider](https://github.com/jffp113/CryptoProviderSDK), is a self-containerized sub-component where all cryptographic operations take place.
+    - The smart-contract engine, which is divided into two engines also housed in Docker containers: one for Algorand smart contracts and one for [Hyperledger Sawtooth Smart-Contracts](https://github.com/jffp113/sawtooth-smartcontract).
+- A validator node corresponds to a particular node of the blockchain platform. We have changed two completely different blockchain platforms:
+    - [ Algorand ](https://github.com/jffp113/go-algorand)
     - [Hyperledger Sawtooth](https://github.com/jffp113/sawtooth-core)
-- Not shown in this figure, but we have also a [benchmark client](https://github.com/jffp113/Thesis_Client) and we have adapted the [Algorand SDK](https://github.com/jffp113/go-algorand-sdk) to our needs. 
+- Not shown in this figure, but we also have a [Benchmark Client](https://github.com/jffp113/Thesis_Client) and we have adapted the [Algorand SDK](https://github.com/jffp113/go-algorand-sdk) to our needs.
 
 ### Links to each component
 This repository was created with the purpose of aggregating the various components that make up my thesis.
