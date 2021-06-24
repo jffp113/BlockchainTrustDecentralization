@@ -26,15 +26,16 @@ Our prototype is built in different components and layers:
     - [Hyperledger Sawtooth](https://github.com/jffp113/sawtooth-core)
 - Not shown in this figure, but we also have a [Benchmark Client](https://github.com/jffp113/Thesis_Client) and we have adapted the [Algorand SDK](https://github.com/jffp113/go-algorand-sdk) to our needs.
 
+- We also have a [util](https://github.com/jffp113/go-util) with code that is shared across components and sub-components, such as, the Router-Dealer pattern and an algorithm to produce all possible combinations for a certain problem-
+
 ### Links to each component
 This repository was created with the purpose of aggregating the various components that make up my thesis.
-
 
 * Signer Node - https://github.com/jffp113/SignerNode_Thesis
 * Go CryptoProviderSDK - https://github.com/jffp113/CryptoProviderSDK
 * Sawtooth Validator - https://github.com/jffp113/sawtooth-core
 * Sawtooth SmartContract - https://github.com/jffp113/sawtooth-smartcontract
-* go util - https://github.com/jffp113/go-util
+* Util - https://github.com/jffp113/go-util
 * algorand sdk - https://github.com/jffp113/go-algorand-sdk
 * algorand validator - https://github.com/jffp113/go-algorand
 * Blockchain Benchmarker - https://github.com/jffp113/Thesis_Client
@@ -43,7 +44,15 @@ The latex for the thesis can be found here: https://github.com/jffp113/JPereira_
 
 
 ## Pre-requisites
+Because our project is containerized we have only few dependencies necessary:
+
+It is recommended the prototype is tested on Linux environments, as no tests were done for Windows/MacOS systems and its behaviour and dependencies may be unpredictable on said platforms.
+
+- make - to use the makefile provided in the signer node, however its not mandatory.
+- Docker version >= 20.10.6
+- docker-compose version >= 1.29.1
+
+Currently docker-compose is integrated with Docker cli tool, but we haven't tested.
 
 ## Reference
-
 <a name="thesis">1.</a> J. Pereira. Decentralizing Trust with Resilient Group Signatures in Blockchains, MSc Thesis. Universidade Nova de Lisboa, 2021.
